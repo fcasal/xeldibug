@@ -2,7 +2,7 @@
 
 python writec.py
 gcc gen.c -fno-stack-protector -z execstack -o shellcode
-rm ./gen.c
+# rm ./gen.c
 chmod +x shellcode
 clear
 echo '\n\n****************************************'
